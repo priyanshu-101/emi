@@ -31,7 +31,7 @@ To run the EMI Calculator locally:
 
 Clone the Repository:
 
-git clone [<repository-url>](https://github.com/priyanshu-101/emi)
+git clone https://github.com/priyanshu-101/emi
 
 Navigate to the Project Directory:
 
