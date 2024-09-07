@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+EMI Calculator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The EMI Calculator is a React application designed to help users calculate Equated Monthly Installments (EMIs) for loans. It provides detailed calculations including the EMI amount, total interest payable, total amount payable (principal + interest), and the effects of prepayment on the loan tenure and total interest saved. The application also offers a month-wise breakdown of payments, including EMI paid, interest paid, principal paid, and remaining balance.
 
-## Available Scripts
+The app features a light/dark mode toggle for user convenience and is fully responsive to ensure a seamless experience across various devices.
 
-In the project directory, you can run:
+Features
+EMI Calculation: Compute the EMI, total interest payable, and total amount payable based on the loan details.
+Prepayment Effects: Analyze how prepayments impact the loan tenure and total interest saved.
+Month-Wise Breakdown: View detailed month-by-month payment breakdown, including EMI paid, interest paid, principal paid, and remaining balance.
+Responsive Design: Ensures the app is usable on different screen sizes and devices.
+Light/Dark Mode Toggle: Easily switch between light and dark mode for a personalized viewing experience.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Certainly! Here’s a comprehensive README for your EMI calculator, all in one file:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+EMI Calculator
+Overview
+The EMI Calculator is a React application designed to assist users in calculating Equated Monthly Installments (EMIs) for their loans. It offers detailed insights, including EMI amount, total interest payable, total amount payable (principal + interest), and the impact of prepayments on the loan tenure and total interest saved. The app provides a month-wise breakdown of payments, including EMI paid, interest paid, principal paid, and remaining balance. Additionally, it features a light/dark mode toggle and is fully responsive.
 
-### `npm test`
+Features
+EMI Calculation: Calculate the EMI, total interest payable, and total amount payable based on loan details.
+Prepayment Effects: Analyze how prepayments affect loan tenure and total interest saved.
+Month-Wise Breakdown: Detailed breakdown of monthly payments, including EMI paid, interest paid, principal paid, and remaining balance.
+Responsive Design: Optimized for various screen sizes and devices.
+Light/Dark Mode Toggle: Switch between light and dark modes as per user preference.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+Installation
+To run the EMI Calculator locally:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Clone the Repository:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+git clone [<repository-url>](https://github.com/priyanshu-101/emi)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Navigate to the Project Directory:
 
-### `npm run eject`
+cd emi
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Install Dependencies:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+npm install
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Start the Application:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+npm start
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Live demo: 
+https://emi-tau.vercel.app/
