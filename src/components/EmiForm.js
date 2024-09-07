@@ -43,10 +43,15 @@ const Navbar = styled.nav`
   width: 100%;
   position: fixed;
   top: 0;
-  z-index: 100;
+ 
   margin-bottom: 2rem;
-`;
 
+  @media (max-width: 480px) {
+    padding: 0.5rem 1rem; 
+    height: 10%;
+    margin-bottom: 3rem;
+  }
+`;
 
 const PageContainer = styled.div`
   display: flex;
@@ -65,9 +70,19 @@ const FormContainer = styled.div`
   background-color: ${({ theme }) => theme.formBackground};
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+  @media (max-width: 1024px) {
+    max-width: 80%;
+  }
 
   @media (max-width: 768px) {
+    max-width: 90%;
     padding: 0.5rem;
+  }
+
+  @media (max-width: 480px) {
+    max-width: 95%;
+    padding: 0.3rem;
   }
 `;
 
@@ -75,7 +90,11 @@ const InputField = styled.div`
   display: flex;
   flex-direction: column;
   margin-bottom: 1rem;
-  width: 95%; /* Ensures all fields take full width */
+  width: 95%;
+
+  @media (max-width: 480px) {
+    width: 95%;
+  }
 `;
 
 const Label = styled.label`
@@ -119,6 +138,11 @@ const Button = styled.button`
   &:hover {
     background-color: ${({ theme }) => theme.buttonHover};
   }
+
+  @media (max-width: 480px) {
+    padding: 0.5rem;
+    font-size: 0.9rem;
+  }
 `;
 
 const ErrorMessage = styled.p`
@@ -147,6 +171,11 @@ const Table = styled.table`
   width: 100%;
   border-collapse: collapse;
   margin-top: 1rem;
+  font-size: 0.9rem;
+
+  @media (max-width: 480px) {
+    font-size: 0.8rem;
+  }
 `;
 
 const TableHeader = styled.th`
@@ -162,12 +191,12 @@ const TableCell = styled.td`
 
 const Title = styled.div`
   font-weight: bold;
-  font-size: 1.5rem;
-  margin-left: 1rem;
+  font-size: 1rem;
+  margin-left: 0.5rem;
 `;
 
 const ThemeSwitcher = ({ toggleTheme }) => (
-  <Button onClick={toggleTheme}>Toggle Theme</Button>
+  <Button onClick={toggleTheme}>Mode</Button>
 );
 
 const EMIForm = () => {
